@@ -70,15 +70,14 @@ export default function Home() {
       }}
     >
       <ThemeContext.Provider
-        value={{ theme, toggleTheme, setDarkTheme, setLightTheme }}
-      >
+        value={{ theme, toggleTheme, setDarkTheme, setLightTheme}}>
         <LangContext.Provider value={{ lang, toggleLang }}>
           <Header />
           <Detail />
           <Controller />
         </LangContext.Provider>
       </ThemeContext.Provider>
-      <Footer year="2023" fullName="Chayanin Suatap" studentId="660610999" />
+      <Footer year="2024" fullName="Ratchaporn Buanut" studentId="660610790" />
     </div>
   );
 }
